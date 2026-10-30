@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.tv-italiana" name="Nonno Stream" version="1.0.2" provider-name="Nonno Stream">
+<addon id="plugin.video.tv-italiana" name="Nonno Stream" version="1.1.0" provider-name="Nonno Stream">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -7,8 +7,8 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="it">Apri le dirette Rai in Kodi</summary>
-        <description lang="it">Mostra un collegamento ai canali in diretta dell'add-on Rai Play per Kodi. Rai Play deve essere installato separatamente.</description>
+        <summary lang="it">TV Rai, radio Rai, RadioMediaset e cataloghi di film</summary>
+        <description lang="it">Riproduce le dirette TV e radio Rai e RadioMediaset. Apre i cataloghi on demand di RaiPlay e Mediaset Infinity tramite i rispettivi add-on ufficiali di Kodi.</description>
         <platform>all</platform>
         <assets>
             <icon>resources/icon.png</icon>

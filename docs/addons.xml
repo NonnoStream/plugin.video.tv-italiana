@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.tv-italiana" name="Nonno Stream" version="1.0.2" provider-name="Nonno Stream">
+<addon id="plugin.video.tv-italiana" name="Nonno Stream" version="1.1.0" provider-name="Nonno Stream">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -8,23 +8,23 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="it">Apri le dirette Rai in Kodi</summary>
-        <description lang="it">Mostra un collegamento ai canali in diretta dell'add-on Rai Play per Kodi. Rai Play deve essere installato separatamente.</description>
+        <summary lang="it">TV Rai, radio Rai, RadioMediaset e cataloghi di film</summary>
+        <description lang="it">Riproduce le dirette TV e radio Rai e RadioMediaset. Apre i cataloghi on demand di RaiPlay e Mediaset Infinity tramite i rispettivi add-on ufficiali di Kodi.</description>
         <platform>all</platform>
         <assets>
             <icon>resources/icon.png</icon>
         </assets>
     </extension>
 </addon>
-<addon id="repository.nonnostream" name="Nonno Stream Repository" version="1.0.4" provider-name="NonnoStream">
+<addon id="repository.nonnostream" name="Nonno Stream Repository" version="1.0.5" provider-name="NonnoStream">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Nonno Stream Repository">
         <dir>
-            <info compressed="false">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.4/docs/addons.xml</info>
-            <checksum>https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.4/docs/addons.xml.md5.txt</checksum>
-            <datadir zip="true">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.4/docs/zips/</datadir>
+            <info compressed="false">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@main/docs/addons.xml</info>
+            <checksum>https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@main/docs/addons.xml.md5.txt</checksum>
+            <datadir zip="true">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@main/docs/zips/</datadir>
             <hashes>false</hashes>
         </dir>
     </extension>

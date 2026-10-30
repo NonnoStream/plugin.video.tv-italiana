@@ -1,21 +1,26 @@
 # Nonno Stream
 
-Piccolo add-on per Kodi che apre la sezione delle dirette TV Rai gestita dall'add-on Rai Play.
+Add-on Kodi con:
+
+- Dirette dei canali TV Rai, caricate dal catalogo ufficiale Rai.
+- Dirette di tutte le radio presenti nel catalogo ufficiale RaiPlay Sound.
+- Radio 105, R101, Virgin Radio e Radio Monte Carlo, con i player audio pubblicati sui rispettivi siti ufficiali.
+- Accesso ai film RaiPlay e ai film e programmi Mediaset Infinity tramite gli add-on ufficiali disponibili nel catalogo Kodi.
+
+Le dirette Rai e le radio funzionano senza installare RaiPlay. Per i cataloghi on demand, Nonno Stream propone di installare l'add-on ufficiale corrispondente da Kodi; alcuni contenuti possono richiedere un account o un abbonamento del servizio.
 
 ## Requisiti
 
 - Kodi 21 o successivo.
-- Add-on **Rai Play** installato in Kodi con ID `plugin.video.raitv`.
+- Connessione Internet.
 
 ## Installazione da file ZIP
 
-1. Scarica `plugin.video.tv-italiana-1.0.2.zip` dalla sezione **Releases** del repository GitHub.
+1. Scarica `plugin.video.tv-italiana-1.1.0.zip`.
 2. In Kodi apri **Add-on → Installa da un file ZIP**.
-3. Seleziona il file ZIP scaricato.
-4. Apri **Nonno Stream** e seleziona **Canali Rai**.
-
-L'add-on Rai Play gestisce l'elenco dei canali e la riproduzione delle dirette. Nonno Stream non contiene né distribuisce flussi video.
+3. Seleziona il file ZIP.
+4. Apri **Nonno Stream** e scegli TV, radio o film.
 
 ## Creare il pacchetto ZIP
 
-Lo ZIP per Kodi deve contenere la cartella `plugin.video.tv-italiana` con `addon.xml` e `addon.py` al suo interno. Carica questo ZIP come asset di una Release GitHub; gli utenti potranno scaricarlo tramite HTTPS.
+Lo ZIP deve contenere la cartella `plugin.video.tv-italiana` con `addon.xml` e `addon.py` al suo interno.
