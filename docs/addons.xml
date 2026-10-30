@@ -17,15 +17,15 @@
     </extension>
 </addon>
 
-<addon id="repository.nonnostream" name="Nonno Stream Repository" version="1.0.0" provider-name="NonnoStream">
+<addon id="repository.nonnostream" name="Nonno Stream Repository" version="1.0.1" provider-name="NonnoStream">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Nonno Stream Repository">
         <dir>
-            <info compressed="false">https://nonnostream.github.io/plugin.video.tv-italiana/addons.xml</info>
-            <checksum>https://nonnostream.github.io/plugin.video.tv-italiana/addons.xml.md5</checksum>
-            <datadir zip="true">https://nonnostream.github.io/plugin.video.tv-italiana/zips/</datadir>
+            <info compressed="false">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@main/docs/addons.xml</info>
+            <checksum>https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@main/docs/addons.xml.md5</checksum>
+            <datadir zip="true">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@main/docs/zips/</datadir>
             <hashes>false</hashes>
         </dir>
     </extension>
