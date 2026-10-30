@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nonnostream" name="Nonno Stream Repository" version="1.0.2" provider-name="NonnoStream">
+<addon id="repository.nonnostream" name="Nonno Stream Repository" version="1.0.3" provider-name="NonnoStream">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Nonno Stream Repository">
         <dir>
-            <info compressed="false">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.2/docs/addons.xml</info>
-            <checksum>https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.2/docs/addons.xml.md5.txt</checksum>
-            <datadir zip="true">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.2/docs/zips/</datadir>
+            <info compressed="false">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.3/docs/addons.xml</info>
+            <checksum>https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.3/docs/addons.xml.md5.txt</checksum>
+            <datadir zip="true">https://cdn.jsdelivr.net/gh/NonnoStream/plugin.video.tv-italiana@repository-v1.0.3/docs/zips/</datadir>
             <hashes>false</hashes>
         </dir>
     </extension>
